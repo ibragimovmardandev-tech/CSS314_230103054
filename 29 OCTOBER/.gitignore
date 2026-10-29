@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+results_smoke/
+*.tmp

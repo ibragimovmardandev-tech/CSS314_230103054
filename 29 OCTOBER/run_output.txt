@@ -1,0 +1,39 @@
+﻿**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20261029123448
+Имя пользователя: DESKTOP-7O55VA6\Mardan Ibragimov
+Запуск от имени пользователя: DESKTOP-7O55VA6\Mardan Ibragimov
+Имя конфигурации: 
+Компьютер: DESKTOP-7O55VA6 (Microsoft Windows NT 10.0.26300.0)
+Ведущее приложение: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Mardan Ibragimov\AppData\Local\Programs\Microsoft VS Code\e646868227\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+ИД процесса: 56836
+PSVersion: 5.1.26100.9549
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9549
+BuildVersion: 10.0.26100.9549
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл .\run_output.txt
+PS C:\Users\Mardan Ibragimov\Downloads\CS482_Ready_To_Run\lab_submission> ..\.venv\Scripts\python.exe -u run_lab.py --student-id 30103054
+    ~~~~^^
+  File "C:\Users\Mardan Ibragimov\Downloads\CS482_Ready_To_Run\lab_submission\run_lab.py", line 71, in main
+    scaling_study.run(steps=3 if args.smoke else 30,repeats=1 if args.smoke else 3,
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        max_cores=2 if args.smoke else None,peak_bandwidth=args.peak_bandwidth_gbs,peak_gflops=args.peak_gflops)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mardan Ibragimov\Downloads\CS482_Ready_To_Run\lab_submission\src\scaling_study.py", line 111, in run
+    raise MemoryError(f'N={n}: insufficient free RAM for arrays and verification; close other programs.')
+MemoryError: N=4311: insufficient free RAM for arrays and verification; close other programs.
+PS C:\Users\Mardan Ibragimov\Downloads\CS482_Ready_To_Run\lab_submission> $studentId = (Get-Content .\results\salted_params.json -Raw | ConvertFrom-Json).student_id
+PS C:\Users\Mardan Ibragimov\Downloads\CS482_Ready_To_Run\lab_submission> ..\.venv\Scripts\python.exe -u run_lab.py --student-id $studentId --stage 3
+
+PS C:\Users\Mardan Ibragimov\Downloads\CS482_Ready_To_Run\lab_submission> ..\.venv\Scripts\python.exe -u run_lab.py --student-id $studentId --stage 4
+
+PS C:\Users\Mardan Ibragimov\Downloads\CS482_Ready_To_Run\lab_submission> Stop-Transcript
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20261029124351
+**********************
