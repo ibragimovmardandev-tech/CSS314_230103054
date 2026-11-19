@@ -1,0 +1,322 @@
+{
+  "git_username": "ibragimovmardandev-tech",
+  "student_id": "230103054",
+  "cpu_model": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "logical_cores": 20,
+  "allowed_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "selected_cpus": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "distinct_reported_cores": 0,
+  "pinning": false,
+  "cache_line_bytes": 64,
+  "cache_line_source": "specification fallback",
+  "instance_seed": 10026534629295237453,
+  "python": "3.14.7",
+  "os": "Windows",
+  "numpy": "2.5.3",
+  "numba": "0.68.1",
+  "llvmlite": "0.50.0",
+  "num_threads": 4,
+  "iterations_per_thread": 60000000,
+  "repeats": 3,
+  "thread_seeds": [
+    10026534629295237453,
+    10026534629295237455,
+    10026534629295237457,
+    10026534629295237459
+  ],
+  "trials": {
+    "stride_1": [
+      {
+        "wall_ns": 165129900,
+        "switches_voluntary_involuntary": null,
+        "lines_relative_to_base": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "final_counters": [
+          17709539384329623584,
+          5786648313112708782,
+          5003024667034029849,
+          2637785639201262521
+        ]
+      },
+      {
+        "wall_ns": 156580900,
+        "switches_voluntary_involuntary": null,
+        "lines_relative_to_base": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "final_counters": [
+          17709539384329623584,
+          5786648313112708782,
+          5003024667034029849,
+          2637785639201262521
+        ]
+      },
+      {
+        "wall_ns": 154829000,
+        "switches_voluntary_involuntary": null,
+        "lines_relative_to_base": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "final_counters": [
+          17709539384329623584,
+          5786648313112708782,
+          5003024667034029849,
+          2637785639201262521
+        ]
+      }
+    ],
+    "stride_4": [
+      {
+        "wall_ns": 152341600,
+        "switches_voluntary_involuntary": null,
+        "lines_relative_to_base": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "final_counters": [
+          17709539384329623584,
+          5786648313112708782,
+          5003024667034029849,
+          2637785639201262521
+        ]
+      },
+      {
+        "wall_ns": 154878900,
+        "switches_voluntary_involuntary": null,
+        "lines_relative_to_base": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "final_counters": [
+          17709539384329623584,
+          5786648313112708782,
+          5003024667034029849,
+          2637785639201262521
+        ]
+      },
+      {
+        "wall_ns": 154625700,
+        "switches_voluntary_involuntary": null,
+        "lines_relative_to_base": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "final_counters": [
+          17709539384329623584,
+          5786648313112708782,
+          5003024667034029849,
+          2637785639201262521
+        ]
+      }
+    ],
+    "stride_8": [
+      {
+        "wall_ns": 137894300,
+        "switches_voluntary_involuntary": null,
+        "lines_relative_to_base": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "final_counters": [
+          17709539384329623584,
+          5786648313112708782,
+          5003024667034029849,
+          2637785639201262521
+        ]
+      },
+      {
+        "wall_ns": 145504700,
+        "switches_voluntary_involuntary": null,
+        "lines_relative_to_base": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "final_counters": [
+          17709539384329623584,
+          5786648313112708782,
+          5003024667034029849,
+          2637785639201262521
+        ]
+      },
+      {
+        "wall_ns": 147923400,
+        "switches_voluntary_involuntary": null,
+        "lines_relative_to_base": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "final_counters": [
+          17709539384329623584,
+          5786648313112708782,
+          5003024667034029849,
+          2637785639201262521
+        ]
+      }
+    ],
+    "stride_16": [
+      {
+        "wall_ns": 144106700,
+        "switches_voluntary_involuntary": null,
+        "lines_relative_to_base": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "final_counters": [
+          17709539384329623584,
+          5786648313112708782,
+          5003024667034029849,
+          2637785639201262521
+        ]
+      },
+      {
+        "wall_ns": 143915700,
+        "switches_voluntary_involuntary": null,
+        "lines_relative_to_base": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "final_counters": [
+          17709539384329623584,
+          5786648313112708782,
+          5003024667034029849,
+          2637785639201262521
+        ]
+      },
+      {
+        "wall_ns": 143584200,
+        "switches_voluntary_involuntary": null,
+        "lines_relative_to_base": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "final_counters": [
+          17709539384329623584,
+          5786648313112708782,
+          5003024667034029849,
+          2637785639201262521
+        ]
+      }
+    ],
+    "private": [
+      {
+        "wall_ns": 39722200,
+        "switches_voluntary_involuntary": null,
+        "lines_relative_to_base": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "final_counters": [
+          17709539384329623584,
+          5786648313112708782,
+          5003024667034029849,
+          2637785639201262521
+        ]
+      },
+      {
+        "wall_ns": 40126200,
+        "switches_voluntary_involuntary": null,
+        "lines_relative_to_base": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "final_counters": [
+          17709539384329623584,
+          5786648313112708782,
+          5003024667034029849,
+          2637785639201262521
+        ]
+      },
+      {
+        "wall_ns": 39530100,
+        "switches_voluntary_involuntary": null,
+        "lines_relative_to_base": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "final_counters": [
+          17709539384329623584,
+          5786648313112708782,
+          5003024667034029849,
+          2637785639201262521
+        ]
+      }
+    ]
+  },
+  "median_wall_ns": {
+    "stride_1": 156580900,
+    "stride_4": 154625700,
+    "stride_8": 145504700,
+    "stride_16": 143915700,
+    "private": 39722200
+  },
+  "llvm_parity_audit": {
+    "nopython": true,
+    "volatile_i64_loop_load_sites": 9,
+    "volatile_i64_loop_store_sites": 9,
+    "private_loop_store_sites": 0,
+    "load_example": "%.154.prol = load volatile i64, ptr %sunkaddr1, align 8",
+    "store_example": "store volatile i64 %.159.prol, ptr %sunkaddr1, align 8",
+    "parity": true
+  },
+  "verification_passed": true
+}
