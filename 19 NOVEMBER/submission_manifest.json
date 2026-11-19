@@ -1,0 +1,87 @@
+{
+  "github_username": "ibragimovmardandev-tech",
+  "student_id": "230103054",
+  "gpu_uuid": "GPU-3b2514c0-4ae8-1064-2f2b-a47f9a103706",
+  "instance_seed": 6707915264826495882,
+  "mpi_ranks": 4,
+  "cart_dims": [
+    2,
+    2
+  ],
+  "local_shape": [
+    258,
+    258
+  ],
+  "halo_bytes": 2048,
+  "steps": 400,
+  "dx": 0.001949317738791423,
+  "dt": 3.1665577794689985e-06,
+  "kappa_max": 0.2399981248663085,
+  "ptx_counts": {
+    "st.shared.f64": 5,
+    "ld.shared.f64": 5,
+    "bar.sync": 1,
+    "st.shared": 5,
+    "ld.shared": 5
+  },
+  "ptx_audit_passed": true,
+  "serialized_ms": 1352.2779889999867,
+  "serialized_cuda_event_ms": 1352.7412719726562,
+  "serialized_trace": [
+    {
+      "step": 0,
+      "energy": 0.3406666147374898,
+      "l2_residual": 0.0
+    },
+    {
+      "step": 100,
+      "energy": 0.33904312191670155,
+      "l2_residual": 6.26002723191079e-05
+    },
+    {
+      "step": 200,
+      "energy": 0.338203076687168,
+      "l2_residual": 3.8773063070879956e-05
+    },
+    {
+      "step": 300,
+      "energy": 0.33751994496587556,
+      "l2_residual": 3.0039653566441667e-05
+    },
+    {
+      "step": 400,
+      "energy": 0.3369176953683988,
+      "l2_residual": 2.5506095475693977e-05
+    }
+  ],
+  "overlapped_ms": 1245.272280000023,
+  "overlapped_cuda_event_ms": 1245.0496826171875,
+  "overlapped_trace": [
+    {
+      "step": 0,
+      "energy": 0.3406666147374898,
+      "l2_residual": 0.0
+    },
+    {
+      "step": 100,
+      "energy": 0.33904312191670155,
+      "l2_residual": 6.26002723191079e-05
+    },
+    {
+      "step": 200,
+      "energy": 0.338203076687168,
+      "l2_residual": 3.8773063070879956e-05
+    },
+    {
+      "step": 300,
+      "energy": 0.33751994496587556,
+      "l2_residual": 3.0039653566441667e-05
+    },
+    {
+      "step": 400,
+      "energy": 0.3369176953683988,
+      "l2_residual": 2.5506095475693977e-05
+    }
+  ],
+  "parity_max_diff": 0.0
+}
